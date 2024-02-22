@@ -1,0 +1,21 @@
+package com.example.tictactoe;
+
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Deque;
+import java.util.List;
+
+public class Game {
+	private Board board;
+	
+	private Deque<Player> players;
+	
+	private List<Move> moves;
+	
+	public Game(int boardSize, List<User> users) {
+		this.board = new Board(boardSize);
+		this.players = new ArrayDeque<>();
+		this.moves = new ArrayList<>();
+	}
+	
+}

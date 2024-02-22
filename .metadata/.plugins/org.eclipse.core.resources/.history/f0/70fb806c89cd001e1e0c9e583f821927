@@ -1,0 +1,32 @@
+package com.example.tictactoe;
+
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Deque;
+import java.util.List;
+import java.util.Scanner;
+import java.util.Stack;
+import java.util.UUID;
+
+public class Game {
+	private Board board;
+	
+	private Deque<Player> players;
+	
+	private Stack<Move> movesHistory;
+	
+	private UUID gameId;
+	
+	private static final Scanner scanner = new Scanner(System.in);
+	
+	public Game(int boardSize, List<User> users) {
+		this.board = new Board(boardSize);
+		this.players = new ArrayDeque<>();
+		this.movesHistory = new Stack<>();
+		this.gameId = UUID.randomUUID();
+		for (int i=0;i<users.size();i++) {
+			players.add(new Player(users.get(i), new PieceType(i+1)));
+		}
+	}
+	
+}

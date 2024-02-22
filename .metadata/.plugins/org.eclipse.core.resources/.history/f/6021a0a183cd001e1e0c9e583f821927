@@ -1,0 +1,9 @@
+package com.example.tictactoe;
+
+public class PieceType {
+	private int value;
+
+	public int getValue() {
+		return value;
+	}
+}
