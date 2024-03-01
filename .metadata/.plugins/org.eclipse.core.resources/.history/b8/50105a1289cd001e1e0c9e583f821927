@@ -1,8 +1,0 @@
-package com.example.tictactoe;
-
-public class Move {
-	private final int x,y;
-	private final Player player;
-	
-	
-}

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="DenominationCurreny"/>
-    <fullyQualifiedTypeName name="ATMState"/>
     <fullyQualifiedTypeName name="com.example.atmMachine.ATMState"/>
     <fullyQualifiedTypeName name="State.HasCard"/>
     <fullyQualifiedTypeName name="State.CashWithdrawlState"/>
@@ -36,14 +34,30 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
-    <fullyQualifiedTypeName name="java.util.UUID"/>
     <fullyQualifiedTypeName name="com.example.tictactoe.Player"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="com.example.tictactoe.Game"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="com.example.tictactoe.User"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.example.observerDesignPattern.WeatherData"/>
+    <fullyQualifiedTypeName name="com.example.observerDesignPattern.State"/>
+    <fullyQualifiedTypeName name="com.example.observerDesignPattern.obersever.CurrentDisplay"/>
+    <fullyQualifiedTypeName name="com.example.observerDesignPattern.obersever.ForecastDisplay"/>
+    <fullyQualifiedTypeName name="com.example.observerDesignPattern.obersever.StatisticsDisplay"/>
+    <fullyQualifiedTypeName name="com.example.observerDesignPattern.obersever.IDisplay"/>
+    <fullyQualifiedTypeName name="com.example.observerDesignPattern.obersever.IObserver"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.util.UUID"/>
+    <fullyQualifiedTypeName name="Signal"/>
+    <fullyQualifiedTypeName name="com.example.Light.Direction"/>
+    <fullyQualifiedTypeName name="com.example.Light.State"/>
+    <fullyQualifiedTypeName name="com.example.Light.GreenLight"/>
+    <fullyQualifiedTypeName name="com.example.Light.Light"/>
+    <fullyQualifiedTypeName name="com.example.Light.YellowLight"/>
+    <fullyQualifiedTypeName name="com.example.Light.RedLight"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
 </qualifiedTypeNameHistroy>

@@ -1,7 +1,0 @@
-package com.example.tictactoe;
-
-public class Player {
-	private User user;
-	
-	private PieceType pieceType;
-}

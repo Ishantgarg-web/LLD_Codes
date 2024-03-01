@@ -1,7 +1,0 @@
-package com.example.tictactoe;
-
-public class PieceType {
-	private final int value = 0;
-	
-	
-}
