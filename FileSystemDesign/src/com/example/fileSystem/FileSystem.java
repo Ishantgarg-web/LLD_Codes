@@ -4,6 +4,9 @@ import java.util.List;
 
 public interface FileSystem {
 
+	void setNullName();
+	
+	void setNullFileSystemList();
 	
 	String getName();
 	

@@ -18,8 +18,12 @@ public class Main {
 		fileManager.createDirectory("system-design/hld/day2");
 		fileManager.createFile("system-design/hld/day2/hldNotes.txt");
 //		
-		fileManager.ls("system-design/lld/day1");
+		fileManager.ls("system-design/lld");
 		
 		// TODO: we can add rename and delete functionality
+		
+		fileManager.deleteDirectory("system-design/lld/day1");
+		
+		fileManager.ls("system-design/lld");
 	}
 }

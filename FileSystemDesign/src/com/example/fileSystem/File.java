@@ -27,4 +27,13 @@ public class File implements FileSystem{
 		return null;
 	}
 	
+	@Override
+	public void setNullName() {
+		this.name = null;
+	}
+
+	@Override
+	public void setNullFileSystemList() {
+		return;
+	}
 }

@@ -28,5 +28,17 @@ public class Directory implements FileSystem{
 		return this.fileSystemList;
 	}
 
+	@Override
+	public void setNullName() {
+		this.name = "null";
+	}
+
+	@Override
+	public void setNullFileSystemList() {
+		this.fileSystemList = null;
+	}
+
+	
+
 	
 }

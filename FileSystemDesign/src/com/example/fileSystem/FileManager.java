@@ -80,8 +80,43 @@ public class FileManager {
 			System.out.println("Empty directory");
 		}
 		for(FileSystem fs: rootFileSystem) {
+			if(fs.getName().equals("null")){
+				continue;
+			}
 			System.out.println("FileSystem is: "+fs.getName()+" and isDirectory: "+fs.isDirectory());
 		}
+	}
+	
+	/**
+	 * Delete Functionality
+	 */
+	public void deleteDirectory(String path) {
+		/**
+		 * if directory is deleted, then all its content will be deleted, either those are files
+		 * or directory.
+		 * path is like: "system-design/lld/day1", it means user want to delete "day1" directory.
+		 */
+		List<FileSystem> rootFileSystem = this.root.fileSystemList;
+		String p[]=path.split("/");
+		int i=0;
+		while(i<p.length-1) {
+			for (FileSystem fs: rootFileSystem) {
+				if(fs.isDirectory() && fs.getName().equals(p[i])) {
+					rootFileSystem = fs.getFileSystemList();
+					i++;
+				}
+			}
+		}
+		// root -> SD -> lld -> day1
+		for (FileSystem fs: rootFileSystem) {
+			if(fs.isDirectory() && fs.getName().equals(p[i])) {
+				fs.setNullName();
+				fs.setNullFileSystemList();
+				System.out.println("Directory is deleted successfully");
+				return;
+			}
+		}
+		System.out.println("Directory not present");
 	}
 	
 }
