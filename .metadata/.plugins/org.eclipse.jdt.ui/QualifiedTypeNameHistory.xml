@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.example.observerDesignPattern.obersever.ForecastDisplay"/>
-    <fullyQualifiedTypeName name="com.example.observerDesignPattern.obersever.StatisticsDisplay"/>
-    <fullyQualifiedTypeName name="com.example.observerDesignPattern.obersever.IDisplay"/>
-    <fullyQualifiedTypeName name="com.example.observerDesignPattern.obersever.IObserver"/>
-    <fullyQualifiedTypeName name="java.util.UUID"/>
-    <fullyQualifiedTypeName name="com.example.Light.YellowLight"/>
-    <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="com.example.Light.RedLight"/>
-    <fullyQualifiedTypeName name="com.example.Light.GreenLight"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="java.util.Deque"/>
     <fullyQualifiedTypeName name="java.util.ArrayDeque"/>
     <fullyQualifiedTypeName name="com.example.Light.Direction"/>
     <fullyQualifiedTypeName name="Signal"/>
@@ -26,7 +15,6 @@
     <fullyQualifiedTypeName name="com.example.mementoDesignPattern.Memento"/>
     <fullyQualifiedTypeName name="com.example.iteratorDesignPattern.VehicleIterator"/>
     <fullyQualifiedTypeName name="com.example.iteratorDesignPattern.Vehicle"/>
-    <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="com.example.strategyDesignPattern.PaymentStrategy.PaymentStrategy"/>
     <fullyQualifiedTypeName name="com.example.strategyDesignPattern.PaymentStrategy.PaymentByUPI"/>
     <fullyQualifiedTypeName name="com.example.strategyDesignPattern.PaymentStrategy.PaymentMain"/>
@@ -54,10 +42,22 @@
     <fullyQualifiedTypeName name="com.example.adaptorDesignPattern.BirdSparrow"/>
     <fullyQualifiedTypeName name="com.example.adaptorDesignPattern.ToyDuck"/>
     <fullyQualifiedTypeName name="com.example.adaptorDesignPattern.BirdAdaptor"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.example.mediatorDesignPattern.AuctionManager"/>
     <fullyQualifiedTypeName name="com.example.mediatorDesignPattern.Mediator"/>
     <fullyQualifiedTypeName name="com.example.mediatorDesignPattern.Collegue"/>
     <fullyQualifiedTypeName name="com.example.mediatorDesignPattern.Bidder"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="com.example.commandDesignPattern.commands.NoCommand"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="com.example.commandDesignPattern.commands.Slot"/>
+    <fullyQualifiedTypeName name="com.example.commandDesignPattern.commands.Command"/>
+    <fullyQualifiedTypeName name="com.example.commandDesignPattern.commands.Invoker"/>
+    <fullyQualifiedTypeName name="com.example.commandDesignPattern.commands.light.Light"/>
+    <fullyQualifiedTypeName name="com.example.commandDesignPattern.commands.light.LightOnCommand"/>
+    <fullyQualifiedTypeName name="com.example.commandDesignPattern.commands.light.LightOffCommand"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.example.fileSystem.FileSystem"/>
+    <fullyQualifiedTypeName name="com.example.fileSystem.Directory"/>
+    <fullyQualifiedTypeName name="com.example.fileSystem.FileManager"/>
 </qualifiedTypeNameHistroy>
