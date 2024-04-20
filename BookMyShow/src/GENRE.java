@@ -1,0 +1,7 @@
+
+public enum GENRE {
+	ACTION,
+	ROMANCE,
+	COMEDY,
+	HORROR
+}

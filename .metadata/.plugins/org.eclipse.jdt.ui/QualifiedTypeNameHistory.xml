@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.ArrayDeque"/>
-    <fullyQualifiedTypeName name="com.example.Light.Direction"/>
-    <fullyQualifiedTypeName name="Signal"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
-    <fullyQualifiedTypeName name="SingalController"/>
-    <fullyQualifiedTypeName name="com.example.Light.State"/>
-    <fullyQualifiedTypeName name="com.example.Light.Light"/>
-    <fullyQualifiedTypeName name="com.example.templateDesignPattern.MasterSystemDesignTemplate"/>
-    <fullyQualifiedTypeName name="com.example.templateDesignPattern.GFGStrategy"/>
-    <fullyQualifiedTypeName name="com.example.templateDesignPattern.InterviewBitStrategy"/>
     <fullyQualifiedTypeName name="com.example.mementoDesignPattern.CareTaker"/>
     <fullyQualifiedTypeName name="com.example.mementoDesignPattern.PersonOriginator"/>
     <fullyQualifiedTypeName name="com.example.mementoDesignPattern.Memento"/>
@@ -55,9 +45,19 @@
     <fullyQualifiedTypeName name="com.example.commandDesignPattern.commands.light.Light"/>
     <fullyQualifiedTypeName name="com.example.commandDesignPattern.commands.light.LightOnCommand"/>
     <fullyQualifiedTypeName name="com.example.commandDesignPattern.commands.light.LightOffCommand"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="com.example.fileSystem.FileSystem"/>
-    <fullyQualifiedTypeName name="com.example.fileSystem.Directory"/>
     <fullyQualifiedTypeName name="com.example.fileSystem.FileManager"/>
+    <fullyQualifiedTypeName name="com.example.fileSystem.Directory"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.example.fileSystem.File"/>
+    <fullyQualifiedTypeName name="com.example.fileSystem.FileSystem"/>
+    <fullyQualifiedTypeName name="LANGUAGE"/>
+    <fullyQualifiedTypeName name="GENRE"/>
+    <fullyQualifiedTypeName name="Movie"/>
+    <fullyQualifiedTypeName name="User"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="Theater"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="Ticket"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="Show"/>
 </qualifiedTypeNameHistroy>
