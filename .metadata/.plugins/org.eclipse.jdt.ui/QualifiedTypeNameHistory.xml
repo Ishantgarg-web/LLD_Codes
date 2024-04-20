@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.example.observerDesignPattern.PlayStore"/>
-    <fullyQualifiedTypeName name="com.example.observerDesignPattern.GoogleDrive"/>
-    <fullyQualifiedTypeName name="com.example.observerDesignPattern.MathBuilder"/>
-    <fullyQualifiedTypeName name="com.example.observerDesignPattern.IshantObserver"/>
     <fullyQualifiedTypeName name="com.example.observerDesignPattern.SahilObserver"/>
     <fullyQualifiedTypeName name="com.example.observerDesignPattern.Observer"/>
     <fullyQualifiedTypeName name="com.example.templateDesignPattern.OrderProcessTemplate"/>
@@ -60,4 +56,8 @@
     <fullyQualifiedTypeName name="com.example.DecoratorDesignPattern.PizzaDecorator"/>
     <fullyQualifiedTypeName name="com.example.DecoratorDesignPattern.CheesePizza"/>
     <fullyQualifiedTypeName name="com.example.adaptorDesignPattern.Document"/>
+    <fullyQualifiedTypeName name="structural.AdaptorDesignPattern.VoterId"/>
+    <fullyQualifiedTypeName name="structural.AdaptorDesignPattern.Document"/>
+    <fullyQualifiedTypeName name="structural.AdaptorDesignPattern.DocumentAdaptor"/>
+    <fullyQualifiedTypeName name="structural.AdaptorDesignPattern.RationCard"/>
 </qualifiedTypeNameHistroy>
