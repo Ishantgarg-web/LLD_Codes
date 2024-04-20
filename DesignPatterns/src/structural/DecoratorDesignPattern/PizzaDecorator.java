@@ -1,4 +1,4 @@
-package com.example.DecoratorDesignPattern;
+package structural.DecoratorDesignPattern;
 
 public abstract class PizzaDecorator implements Pizza{
 	protected Pizza pizza;

@@ -1,4 +1,4 @@
-package com.example.DecoratorDesignPattern;
+package structural.DecoratorDesignPattern;
 
 public class PaneerPizza extends PizzaDecorator{
 	

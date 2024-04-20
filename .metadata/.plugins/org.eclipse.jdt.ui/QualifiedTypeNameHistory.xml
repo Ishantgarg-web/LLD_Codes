@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.example.mementoDesignPattern.CareTaker"/>
-    <fullyQualifiedTypeName name="com.example.mementoDesignPattern.PersonOriginator"/>
-    <fullyQualifiedTypeName name="com.example.mementoDesignPattern.Memento"/>
-    <fullyQualifiedTypeName name="com.example.iteratorDesignPattern.VehicleIterator"/>
-    <fullyQualifiedTypeName name="com.example.iteratorDesignPattern.Vehicle"/>
-    <fullyQualifiedTypeName name="com.example.strategyDesignPattern.PaymentStrategy.PaymentStrategy"/>
-    <fullyQualifiedTypeName name="com.example.strategyDesignPattern.PaymentStrategy.PaymentByUPI"/>
-    <fullyQualifiedTypeName name="com.example.strategyDesignPattern.PaymentStrategy.PaymentMain"/>
-    <fullyQualifiedTypeName name="com.example.strategyDesignPattern.PaymentStrategy.PaymentByCard"/>
-    <fullyQualifiedTypeName name="com.example.observerDesignPattern.AppSubject"/>
     <fullyQualifiedTypeName name="com.example.observerDesignPattern.PlayStore"/>
     <fullyQualifiedTypeName name="com.example.observerDesignPattern.GoogleDrive"/>
     <fullyQualifiedTypeName name="com.example.observerDesignPattern.MathBuilder"/>
@@ -50,14 +40,24 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="com.example.fileSystem.File"/>
     <fullyQualifiedTypeName name="com.example.fileSystem.FileSystem"/>
+    <fullyQualifiedTypeName name="User"/>
+    <fullyQualifiedTypeName name="Ticket"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="GuestUser"/>
+    <fullyQualifiedTypeName name="Movie"/>
     <fullyQualifiedTypeName name="LANGUAGE"/>
     <fullyQualifiedTypeName name="GENRE"/>
-    <fullyQualifiedTypeName name="Movie"/>
-    <fullyQualifiedTypeName name="User"/>
+    <fullyQualifiedTypeName name="BookMyShow"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="Theater"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="Ticket"/>
-    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="Show"/>
+    <fullyQualifiedTypeName name="RegisteredUser"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="com.example.DecoratorDesignPattern.BasePizza"/>
+    <fullyQualifiedTypeName name="com.example.DecoratorDesignPattern.Pizza"/>
+    <fullyQualifiedTypeName name="com.example.DecoratorDesignPattern.PaneerPizza"/>
+    <fullyQualifiedTypeName name="com.example.DecoratorDesignPattern.PizzaDecorator"/>
+    <fullyQualifiedTypeName name="com.example.DecoratorDesignPattern.CheesePizza"/>
+    <fullyQualifiedTypeName name="com.example.adaptorDesignPattern.Document"/>
 </qualifiedTypeNameHistroy>
