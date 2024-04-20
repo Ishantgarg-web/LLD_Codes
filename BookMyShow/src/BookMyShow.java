@@ -73,17 +73,16 @@ public class BookMyShow {
 	public static void main(String[] args) {
 		// Initialize all model objects
 		RegisteredUser ishant = new RegisteredUser("ishant");
-//		ishant.registerUser("ishant", "ishant@gmail.com", "ishant123");
 		
-		Movie gadar = new Movie("gadar", LANGUAGE.HINDI, GENRE.ACTION);
-		Movie omg = new Movie("omg", LANGUAGE.HINDI, GENRE.COMEDY);
-		Movie pie = new Movie("pie", LANGUAGE.ENGLISH, GENRE.ACTION);
+		Movie avengers = new Movie("avengers", LANGUAGE.ENGLISH, GENRE.ACTION);
+		Movie ironMan = new Movie("ironMan", LANGUAGE.ENGLISH, GENRE.ACTION);
+		Movie pie = new Movie("pie", LANGUAGE.HINDI, GENRE.ACTION);
 		
 		Theater hisar = new Theater("hisar", "Dabra", 100);
 		Theater delhi = new Theater("delhi", "new delhi", 50);
 		
 		Show pieShowHisar = new Show(LocalDateTime.of(2024, 04, 21, 10, 0), pie, hisar);
-		Show gadarShowHisar = new Show(LocalDateTime.of(2024, 04, 21, 11, 0), gadar, hisar);
+		Show gadarShowHisar = new Show(LocalDateTime.of(2024, 04, 21, 11, 0), avengers, hisar);
 		Show pieShowdelhi = new Show(LocalDateTime.of(2024, 04, 22, 10, 0), pie, delhi);
 		
 		// Create object of BookMyShow Application
@@ -94,9 +93,9 @@ public class BookMyShow {
 		BookMyShow bookMyShow = new BookMyShow(allTheaters);
 	
 		// search shows
-		List<Show> allGadarShows = bookMyShow.searchShows("pie");
-		if(allGadarShows!=null) {
-			for (Show show: allGadarShows) {
+		List<Show> allpieShows = bookMyShow.searchShows("pie");
+		if(allpieShows!=null) {
+			for (Show show: allpieShows) {
 				System.out.println(show);
 			}
 		}
@@ -105,9 +104,9 @@ public class BookMyShow {
 		bookMyShow.bookTicket(pieShowdelhi, 3, ishant, "delhi");
 		
 		// search shows
-				allGadarShows = bookMyShow.searchShows("pie");
-				if(allGadarShows!=null) {
-					for (Show show: allGadarShows) {
+		allpieShows = bookMyShow.searchShows("pie");
+				if(allpieShows!=null) {
+					for (Show show: allpieShows) {
 						System.out.println(show);
 					}
 				}
