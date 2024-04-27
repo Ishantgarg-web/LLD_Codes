@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.example.observerDesignPattern.SahilObserver"/>
-    <fullyQualifiedTypeName name="com.example.observerDesignPattern.Observer"/>
-    <fullyQualifiedTypeName name="com.example.templateDesignPattern.OrderProcessTemplate"/>
-    <fullyQualifiedTypeName name="com.example.templateDesignPattern.OnlineOrder"/>
-    <fullyQualifiedTypeName name="com.example.templateDesignPattern.StoreOrder"/>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
-    <fullyQualifiedTypeName name="java.lang.Iterable"/>
-    <fullyQualifiedTypeName name="com.example.iteratorDesignPattern.Collection"/>
-    <fullyQualifiedTypeName name="com.example.iteratorDesignPattern.Notification"/>
-    <fullyQualifiedTypeName name="com.example.iteratorDesignPattern.Iterator"/>
-    <fullyQualifiedTypeName name="com.example.iteratorDesignPattern.NotificationIterator"/>
-    <fullyQualifiedTypeName name="com.example.iteratorDesignPattern.NotificationCollection"/>
-    <fullyQualifiedTypeName name="com.example.iteratorDesignPattern.NotificationBar"/>
-    <fullyQualifiedTypeName name="com.example.adaptorDesignPattern.Duck"/>
-    <fullyQualifiedTypeName name="com.example.adaptorDesignPattern.Bird"/>
-    <fullyQualifiedTypeName name="com.example.adaptorDesignPattern.BirdSparrow"/>
-    <fullyQualifiedTypeName name="com.example.adaptorDesignPattern.ToyDuck"/>
-    <fullyQualifiedTypeName name="com.example.adaptorDesignPattern.BirdAdaptor"/>
     <fullyQualifiedTypeName name="com.example.mediatorDesignPattern.AuctionManager"/>
     <fullyQualifiedTypeName name="com.example.mediatorDesignPattern.Mediator"/>
     <fullyQualifiedTypeName name="com.example.mediatorDesignPattern.Collegue"/>
@@ -60,4 +42,22 @@
     <fullyQualifiedTypeName name="structural.AdaptorDesignPattern.Document"/>
     <fullyQualifiedTypeName name="structural.AdaptorDesignPattern.DocumentAdaptor"/>
     <fullyQualifiedTypeName name="structural.AdaptorDesignPattern.RationCard"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.lir.aarch64.AArch64Move.Move"/>
+    <fullyQualifiedTypeName name="com.example.Pieces.PieceType"/>
+    <fullyQualifiedTypeName name="com.example.Pieces.Color"/>
+    <fullyQualifiedTypeName name="com.example.Pieces.Pawn"/>
+    <fullyQualifiedTypeName name="com.example.Pieces.Rook"/>
+    <fullyQualifiedTypeName name="com.example.Pieces.Knight"/>
+    <fullyQualifiedTypeName name="com.example.Pieces.Bishop"/>
+    <fullyQualifiedTypeName name="com.example.Pieces.Queen"/>
+    <fullyQualifiedTypeName name="com.example.Pieces.King"/>
+    <fullyQualifiedTypeName name="com.example.models.Cell"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.example.models.Game"/>
+    <fullyQualifiedTypeName name="com.example.models.Player"/>
+    <fullyQualifiedTypeName name="com.example.models.Move"/>
+    <fullyQualifiedTypeName name="com.example.models.Cordinate"/>
+    <fullyQualifiedTypeName name="com.example.models.Board"/>
+    <fullyQualifiedTypeName name="com.example.Pieces.Piece"/>
 </qualifiedTypeNameHistroy>
