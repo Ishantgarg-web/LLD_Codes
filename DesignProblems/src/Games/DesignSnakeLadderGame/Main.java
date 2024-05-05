@@ -4,9 +4,28 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/**
+ * 
+ * @author ishant
+ * V1:
+ * 	-> Snake and Ladder Game, there are multiple snakes and ladders present on a board. user will roll the dice
+ *     to get the numbers and according to that user will move to newPosition.
+ * V2:
+ * 	-> We will track user moves history and maintain LeaderBoard also for each user.
+ * 
+ */
+
 public class Main {
 	public static void main(String[] args) {
 		Board b = new Board(100);
+		
+		/**
+		 * Here Jumper means, Snake and Ladder (start, end) points. 
+		 * if end>start:
+		 * 	-> Ladder
+		 * else:
+		 * 	-> Snake
+		 */
 		
 		b.addJumper(1, 38); // Ladder
 		b.addJumper(4, 14); // Ladder
