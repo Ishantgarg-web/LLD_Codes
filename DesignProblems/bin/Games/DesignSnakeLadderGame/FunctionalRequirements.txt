@@ -1,0 +1,8 @@
+Functional Requirements:
+
+-> Game can have multiple players.
+-> App will have multiple users and from that some users will play the game.
+-> Game has a board with given size.
+-> player can roll a dice, dice will return random result(from 1 to 6).
+-> Board can have multiple snakes and ladders.
+-> Turn for each player will come in sequence.
